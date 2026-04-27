@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "win-gitbash-mcp": {
+      "command": "node",
+      "args": ["C:\\Users\\<username>\\.kiro\\settings\\win-gitbash-mcp.js"],
+      "autoApprove": ["execute_bash"]
+    }
+  }
+}
