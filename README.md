@@ -35,7 +35,7 @@ Copy from [`kiro/mcp.json`](kiro/mcp.json) and replace `<username>` with your Wi
   "mcpServers": {
     "win-gitbash-mcp": {
       "command": "node",
-      "args": ["C:\\Users\\<username>\\.kiro\\settings\\win-gitbash-mcp.js"],
+      "args": ["%USERPROFILE%\\.kiro\\settings\\win-gitbash-mcp.js"],
       "autoApprove": ["execute_bash"]
     }
   }
