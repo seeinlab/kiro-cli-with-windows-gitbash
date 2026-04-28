@@ -36,11 +36,16 @@ Copy from [`kiro/mcp.json`](kiro/mcp.json) and replace `<username>` with your Wi
     "win-gitbash-mcp": {
       "command": "node",
       "args": ["C:\\Users\\<username>\\.kiro\\settings\\win-gitbash-mcp.js"],
+      "env": {
+        "LOG_ENABLED": "true"
+      },
       "autoApprove": ["execute_bash"]
     }
   }
 }
 ```
+
+Set `"LOG_ENABLED": "false"` to disable logging (FATAL errors are always logged). Logs are at `%USERPROFILE%\.kiro\logs\win-gitbash-mcp.log`.
 
 ### 3. Add to `%USERPROFILE%\.kiro\steering\gitbash.md`
 
